@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(uv venv:*)",
+      "Bash(source:*)",
+      "Bash(python:*)",
+      "Bash(tree:*)",
+      "Bash(chmod:*)",
+      "Bash(pip install:*)",
+      "Bash(uv pip install:*)",
+      "Bash(uv run:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

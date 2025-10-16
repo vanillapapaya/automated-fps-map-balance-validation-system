@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "description": "Default validation rules for balanced competitive maps",
+  "rules": [
+    {
+      "rule_id": "max_exposure_limit",
+      "metric_name": "max_exposure",
+      "operator": "less_than",
+      "threshold": 0.4,
+      "description": "Maximum sight exposure must be below 40%"
+    },
+    {
+      "rule_id": "exposure_balance",
+      "metric_name": "exposure_difference",
+      "operator": "less_than",
+      "threshold": 0.15,
+      "description": "Exposure difference between teams must be below 15%"
+    },
+    {
+      "rule_id": "minimum_exposure",
+      "metric_name": "avg_exposure",
+      "operator": "greater_than",
+      "threshold": 0.1,
+      "description": "Average exposure must exceed 10% to avoid stalemate"
+    },
+    {
+      "rule_id": "team_a_exposure_range",
+      "metric_name": "team_a_exposure",
+      "operator": "between",
+      "threshold": [0.1, 0.5],
+      "description": "Team A exposure must be between 10% and 50%"
+    },
+    {
+      "rule_id": "team_b_exposure_range",
+      "metric_name": "team_b_exposure",
+      "operator": "between",
+      "threshold": [0.1, 0.5],
+      "description": "Team B exposure must be between 10% and 50%"
+    }
+  ]
+}
