@@ -1,8 +1,8 @@
-# Procedural Map Validation System - Project Reference Guide
+# Automated FPS Map Balance Validation System - Project Reference Guide
 
 ## Project Overview
 
-This project implements a constraint-based procedural map generation system specifically designed for competitive multiplayer games. Unlike traditional procedural generation that focuses solely on visual variety, this system integrates spatial analysis as a validation layer to ensure gameplay balance. The core innovation is that maps are generated with built-in fairness guarantees through mathematical verification of team sight exposure ratios.
+This project implements an automated map balance validation system specifically designed for competitive FPS multiplayer games. Unlike traditional procedural generation that focuses solely on visual variety, this system integrates spatial analysis as a validation layer to ensure gameplay balance. The core innovation is that maps are generated with built-in fairness guarantees through mathematical verification of team sight exposure ratios.
 
 ## Core Problem Statement
 

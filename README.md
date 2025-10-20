@@ -1,6 +1,6 @@
-# 절차적 맵 검증 시스템
+# Automated FPS Map Balance Validation System
 
-팀 간 시야 노출 비율의 수학적 검증을 통해 게임플레이 균형을 보장하는 제약 기반 절차적 맵 생성 시스템입니다.
+FPS 게임을 위한 자동화된 맵 밸런스 검증 시스템입니다. 팀 간 시야 노출 비율의 수학적 검증을 통해 게임플레이 균형을 보장하는 제약 기반 절차적 맵 생성 시스템입니다.
 
 ## 개요
 
@@ -135,7 +135,7 @@ Notebook은 각 단계를 실시간으로 시각화하며, 픽셀별 노출도 �
 ## 프로젝트 구조
 
 ```
-Procedural-map-validation-system/
+automated-fps-map-balance-validation-system/
 ├── src/
 │   ├── map_generator.py       # 지형 생성
 │   ├── spatial_analyzer.py    # 가시성 분석
